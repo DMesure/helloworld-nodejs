@@ -16,6 +16,6 @@ spec:
       containers:
         - name: helloworld-nodejs-dep2
           image: openshift/hello-openshift
-          imagePullPolicy: always
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
