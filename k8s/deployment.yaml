@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: helloworld-nodejs-dep2
-          image: openshift/hello-openshift
+          image: image-registry.openshift-image-registry.svc:5000/dmesure-msgpollingservice/helloworld-imagestream2:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
